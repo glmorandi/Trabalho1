@@ -2,6 +2,13 @@
 
 Este é um site de demonstração
 
+## Clonar o repositório
+
+```bash
+https://github.com/glmorandi/Trabalho1.git
+cd Trabalho1
+```
+
 ## Configuração
 
 Instale as dependências:
