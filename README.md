@@ -1,10 +1,17 @@
-# Nuxt 3 Minimal Starter
+# Trabalho1
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Este é um site de demonstração
 
-## Setup
+## Clonar o repositório
 
-Make sure to install the dependencies:
+```bash
+https://github.com/glmorandi/Trabalho1.git
+cd Trabalho1
+```
+
+## Configuração
+
+Instale as dependências:
 
 ```bash
 # npm
@@ -20,9 +27,9 @@ yarn install
 bun install
 ```
 
-## Development Server
+## Servidor de desenvolvimento
 
-Start the development server on `http://localhost:3000`:
+Inicie o servidor de desenvolvimento com `http://localhost:3000`:
 
 ```bash
 # npm
@@ -38,9 +45,9 @@ yarn dev
 bun run dev
 ```
 
-## Production
+## Produção
 
-Build the application for production:
+Crie a aplicação para produção:
 
 ```bash
 # npm
@@ -56,7 +63,7 @@ yarn build
 bun run build
 ```
 
-Locally preview production build:
+Visualize localmente a aplicação de produção:
 
 ```bash
 # npm
@@ -71,5 +78,3 @@ yarn preview
 # bun
 bun run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
