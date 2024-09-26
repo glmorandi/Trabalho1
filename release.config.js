@@ -1,23 +1,30 @@
 export default {
     branches: ['main'],
     plugins: [
+      [
+        '@semantic-release/commit-analyzer',
         {
-            path: '@semantic-release/commit-analyzer',
-            config: {
-              releaseRules: [
-                { type: 'refactor', release: 'minor' },
-                { breaking: true, release: 'major' }, 
-                { type: 'feat', release: 'minor' }, 
-                { type: 'fix', release: 'patch' }, 
-                { type: 'docs', release: false },
-              ],
-            },
+          parserOpts: {
+            types: [
+              { type: 'feat', section: 'Features' },
+              { type: 'fix', section: 'Bug Fixes' },
+              { type: 'refactor', section: 'Refactors' },
+              { type: 'perf', section: 'Performance Improvements' },
+              { type: 'test', section: 'Tests' },
+              { type: 'chore', hidden: true },
+              { type: 'build', hidden: true },
+            ],
           },
+          releaseRules: [
+            { type: 'refactor', release: 'patch' },
+          ],
+        },
+      ],
       '@semantic-release/release-notes-generator',
       '@semantic-release/changelog',
       '@semantic-release/npm',
       '@semantic-release/github',
-      '@semantic-release/git'
+      '@semantic-release/git',
     ],
   };
   
