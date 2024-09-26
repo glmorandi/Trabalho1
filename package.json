@@ -22,5 +22,5 @@
     "@semantic-release/commit-analyzer": "^13.0.0",
     "semantic-release": "^24.1.1"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
