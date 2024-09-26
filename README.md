@@ -78,3 +78,15 @@ yarn preview
 # bun
 bun run preview
 ```
+
+# Fluxo de desenvolvimento
+
+A branch main é utilizada apenas para as releases, sendo necessário realizar um PR para criar uma nova release.
+
+# Entrega de versão
+
+As atualizações são entregues de forma automática, de acordo com a criação de uma nova release e com frequência variável.
+
+# Correção emergencial
+
+Em caso de uma correção emergencial, é criado uma branch que depois de corrijido o erro, é feito um PR na main, criando uma nova release.
