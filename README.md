@@ -90,3 +90,29 @@ As atualizações são entregues de forma automática, de acordo com a criação
 # Correção emergencial
 
 Em caso de uma correção emergencial, é criado uma branch que depois de corrijido o erro, é feito um PR na main, criando uma nova release.
+
+# Processo de desenvolvimento
+
+Onde inicia a demanda:
+
+Inicia através de funcionários dos departamentos que abrem chamados no helpdesk
+
+Quem define o que precisa ser feito:
+
+O Gestor da TI
+
+Quem define como precisa ser feito:
+
+Gestor, desenvolvedor e a equipe
+
+Quem faz:
+
+Equipe de desenvolvimento ou o desenvolvedor
+
+Quem testa:
+
+Desenvolvedor, depois é disponibilizado em ambiente de desenvolvimento e os interessados testam e dão a confirmação.
+
+Como o cliente recebe a atualização:
+
+Após realizados os testes, as alterações vão para o ambiente de produção em que o cliente tem acesso.
